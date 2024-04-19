@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""mixed"""
+""" task 6"""
 from typing import List, Union
 
 
-def sum_mixed_list(mxd_list: List[Union[float, int]]) -> float:
-    """union and list from typing"""
-    return sum(mxd_list)
+def sum_mixed_list(mxd_lst: List[Union[int, float]]) -> float:
+    """List and Union from typing"""
+    return sum(mxd_lst)
